@@ -3,6 +3,7 @@
 <head>
   <title>ChainSwarm</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <meta name="viewport" content="user-scalable=no,width=device-width">
   <style>
     body {
       background-color: #82e2ca;
@@ -14,18 +15,25 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
       height: 80vh;
     }
 
     #logo {
       /* background-color: #8bd387; */
       border-radius: 10px;
-      width: 30vw;
+      width: 280px;
       /* padding: 30px; */
     }
 
     #logo-path {
       fill: #5982a1;
+    }
+
+    #moto {
+      font-family: 'Montserrat', sans-serif;
+      color: #5982a1;
+      margin: 20px;
     }
   </style>
 </head>
@@ -39,7 +47,7 @@
           </g>
         </svg>
     </div>
-    <div id="moto"></div>
+    <div id="moto">Infinitely scalable blockchain</div>
   </div>
 </body>
 
